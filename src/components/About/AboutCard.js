@@ -3,40 +3,39 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
-  return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Lalit Jindal </span>
-            from <span className="purple"> Ludhiana,Punjab, India.</span>
-            <br />
-            I am currently pursuing BE Computer Science Engineering.
-            <br />
-      
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Traveling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> listening to music
-            </li>
-          </ul>
+	return (
+		<Card className="quote-card-view">
+			<Card.Body>
+				<blockquote className="blockquote mb-0">
+					<p style={{ textAlign: "justify" }}>
+						Hi Everyone, I am <span className="purple">Lalit Jindal </span>
+						from <span className="purple"> Ludhiana,Punjab, India.</span>
+						<br />
+						I am currently pursuing BE Computer Science Engineering.
+						<br />
+						<br />
+						Apart from coding, some other activities that I love to do!
+					</p>
+					<ul>
+						<li className="about-activity">
+							<ImPointRight /> Traveling
+						</li>
+						<li className="about-activity">
+							<ImPointRight /> Playing Games
+						</li>
+						<li className="about-activity">
+							<ImPointRight /> listening to music
+						</li>
+					</ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Turn challenges into opportunities, and ideas into reality   !"{" "}
-          </p>
-          <footer className="blockquote-footer">Lalit</footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
-  );
+					<p style={{ color: "rgb(155 126 172)" }}>
+						"Turn challenges into opportunities, and ideas into reality !"{" "}
+					</p>
+					<footer className="blockquote-footer">Lalit</footer>
+				</blockquote>
+			</Card.Body>
+		</Card>
+	);
 }
 
 export default AboutCard;
