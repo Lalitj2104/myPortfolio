@@ -7,6 +7,7 @@ import shop from "../../Assets/Projects/shop.png";
 import maxy from "../../Assets/Projects/Maxy.png";
 import mind from "../../Assets/Projects/mind.png";
 import price from "../../Assets/Projects/price.png";
+import chatly from "../../Assets/Projects/chatly.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -32,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shop}
+              imgPath={chatly}
               isBlog={false}
               title="Chatly"
               description="Chatly is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.IO for seamless, instant messaging. The app features user authentication, friend request functionality, and a responsive, user-friendly interface. Users can send and receive messages in real-time, manage friend requests, and enjoy a smooth chat experience. The backend is powered by Express.js and Node.js, while React.js handles the dynamic frontend. Socket.IO ensures real-time communication, and MongoDB manages user data and chat history efficiently. This project showcases expertise in full-stack development, real-time communication, and modern web technologies."
