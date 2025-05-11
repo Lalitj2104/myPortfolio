@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
+	DiAws,
 	DiJava,
 	DiJavascript1,
 	DiMongodb,
@@ -44,6 +45,9 @@ function Techstack() {
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<DiMongodb />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<DiAws />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<SiHtml5 />
